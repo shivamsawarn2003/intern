@@ -1,0 +1,32 @@
+.about-container {
+    display: flex;
+    flex-direction: column; /* Change to column layout for smaller screens */
+    align-items: center; /* Center content vertically */
+    background-image: url('../../img/assets/black.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .left-section, .right-section {
+    width: 100%; /* Occupy full width on smaller screens */
+    text-align: center; /* Center text */
+  }
+  
+  .about-heading {
+    font-size: 48px; /* Adjust font size for smaller screens */
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 5%;
+    color: white;
+  }
+  
+  .about-content {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    width: 50%; /* Reduce width for better readability on smaller screens */
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    margin-top: 5%;
+  }
+  
